@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ServicioGestorPaquete
+  config:
+    import: "optional:configserver:http://localhost:9080/"
+  cloud:
+    config:
+      fail-fast: true
+
+
+
+
